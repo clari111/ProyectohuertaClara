@@ -1,0 +1,44 @@
+
+
+body {
+    margin: 0;
+    padding: 20px;
+    
+background-color: #004b15;
+    color: #fff;
+}
+
+.titulo {
+    text-align: center;
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #58a76f;
+}
+
+
+.contenedor {
+    display: flex;
+    justify-content: center;
+   
+    flex-wrap: wrap;
+}
+
+
+.card {
+    width: 250px;
+    padding: 20px;
+    background: rgba(255,255,255,0.15);
+    
+    border-radius: 15px;
+    text-align: center;
+    border: 1px solid rgba(194, 223, 205, 0.692);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+
+
+.contenedor-imagen {
+    text-align: center;  
+    margin-top: 20px;
+}
