@@ -93,3 +93,4 @@ onValue(refDatos, (snapshot) => {
         cardHumSuelo.style.background = "rgba(255, 255, 255, 0.15)";
         humSuelo.textContent = `${humedadSuelo} % Suelo con humedad moderada`;
         imagenSueloDos.src = "https://www.infocampo.com.ar/wp-content/uploads/2020/
+    }}
