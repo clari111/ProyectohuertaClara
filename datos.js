@@ -59,12 +59,12 @@ onValue(refDatos, (snapshot) => {
         cardTemp.style.background = "rgba(255, 0, 0, 0.4)";
         temp.textContent = `${temperatura} °C  Temperatura alta`;
         imagenTempAlta.src = "https://alnuspaisajismoyjardineria.es/wp-content/uploads/2024/07/como-cuidar-jardines-durante-las-olas-de-calor-768x432.jpg";
-    } 
+    }
     else if (temperatura >= 20) {
         cardTemp.style.background = "rgba(0, 200, 0, 0.4)";
         temp.textContent = `${temperatura} °C  Temperatura moderada`;
         imagenTempMedia.src = "https://www.infocampo.com.ar/wp-content/uploads/2024/07/huerta-1.jpg";
-    } 
+    }
     else {
         cardTemp.style.background = "rgba(0, 0, 255, 0.4)";
         temp.textContent = `${temperatura} °C  Temperatura baja`;
@@ -76,7 +76,7 @@ onValue(refDatos, (snapshot) => {
         cardHumAire.style.background = "rgba(89, 180, 245, 0.4)";
         humAire.textContent = `${humedadAire}% - Aire muy húmedo, riesgo de hongos`;
         imagenAirehumedo.src = "https://news.agrofystatic.com/607942979-camino-de-tierra-campo-agricultura-alta-baviera-stationary-plate_0.jpg?d=620x375";
-    } 
+    }
     else {
         cardHumAire.style.background = "rgba(255, 255, 255, 0.15)";
         humAire.textContent = `${humedadAire}% - Aire moderado`;
@@ -88,9 +88,10 @@ onValue(refDatos, (snapshot) => {
         cardHumSuelo.style.background = "rgba(107, 69, 23, 0.7)";
         humSuelo.textContent = `${humedadSuelo} %  Suelo seco, recomendacion de riego`;
         imagenSuelo.src = "https://media.istockphoto.com/id/614610264/es/foto/planta-de-tomate-withered.jpg?s=612x612&w=0&k=20&c=eZT3gFRMu3B1bN4NeyREFGlXCZeVsNeXMuusk3LxH3c=";
-    } 
+    }
     else {
         cardHumSuelo.style.background = "rgba(255, 255, 255, 0.15)";
         humSuelo.textContent = `${humedadSuelo} % Suelo con humedad moderada`;
-        imagenSueloDos.src = "https://www.infocampo.com.ar/wp-content/uploads/2020/
-    }}
+        imagenSueloDos.src = "https://www.infocampo.com.ar/wp-content/uploads/2020/"
+    }
+})
