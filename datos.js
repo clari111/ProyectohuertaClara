@@ -33,7 +33,7 @@ let imagenAirehumedo = document.querySelector("#Airehumedo");
 let imagenAireseco = document.querySelector("#Aireseco");
 
 
-let refDatos = ref(db, "Sensores/nodemcu01");
+let refDatos = ref(db, "sensores/nodemcu01");
 
 onValue(refDatos, (snapshot) => {
     const datos = snapshot.val();
